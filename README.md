@@ -8,11 +8,7 @@ The main goal of this repository is to **practice Data Structures & Algorithms (
 
 ---
 
-## 🔗 LeetCode Profile
-
-👉 **My LeetCode Profile:** [https://leetcode.com/u/ankit16x2choudhary/]
-
----
+ 
 
 ## 📌 About This Repository
 
