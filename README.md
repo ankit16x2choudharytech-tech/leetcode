@@ -48,7 +48,7 @@ The repository will contain problems related to:
 * Sorting
 * Bit Manipulation
 * Mathematics
-* And more...
+* And more
 
 ---
 
