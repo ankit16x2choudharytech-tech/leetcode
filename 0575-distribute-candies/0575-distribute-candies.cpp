@@ -9,6 +9,6 @@ public:
                 unique++;
             }
         }      
-        return  min(n / 2, unique);
+   return  min(n / 2, unique);
     }
 };
