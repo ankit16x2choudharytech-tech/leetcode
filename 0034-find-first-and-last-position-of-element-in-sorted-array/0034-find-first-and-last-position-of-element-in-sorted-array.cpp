@@ -44,10 +44,11 @@ public:
 
 
     vector<int> searchRange(vector<int>& nums, int target) {
-
+        vector<int> ans;
         int first = firstPosition(nums, target);
         int last = lastPosition(nums, target);
-
-        return {first, last};
+         ans.push_back(first);
+         ans.push_back(last);
+        return ans;
     }
 };
