@@ -12,6 +12,16 @@
 class Solution {
 public:
     bool checkTree(TreeNode* root) {
-      return root->val==root->left->val+root->right->val;
+     if(root==nullptr) return true;
+     if(root->left==nullptr && root->right==nullptr)return true;
+     int sum=0;
+     if(root->left!=nullptr){
+        sum+=root->left->val;
+     }
+     if(root->right!=nullptr){
+        sum+=root->right->val;
+     }
+
+     return (root->val == sum && checkTree(root->left) && checkTree(root->right));
     }
 };
